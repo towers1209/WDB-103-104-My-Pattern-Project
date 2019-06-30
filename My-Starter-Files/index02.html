@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -- UPDATE WITH THE LATEST BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- NEW! Use Font Awesome kit code, instead of a simple link to a CDN -->
+    <!-- NOT SURE IF I CAN USE THE SAME KIT OVER AND OVER AGAIN. WILL FIND OUT SOON. -->
+    <script src="https://kit.fontawesome.com/a41d38ff6d.js"></script>
+
+    <style>
+        #header {
+            background: url(imgs/header.jpeg) center center / cover no-repeat;
+            /* center center - center image vertically and horizontally */
+            /* / cover - cover the entire jumbotron */
+            /*  no repeat - don't repeat the image. */
+
+            /* Alternate */
+            /* background: url(imgs/header.jpeg); image remains the same  large size */
+            /* OR */
+            /* background: url(imgs/header.jpeg); */
+            /* USING background-image is for an entirely different purpose. */
+            /* background-image:url(imgs/header.jpeg); */
+        }
+    </style>
+
+    <title>103-104 Pattern Project</title>
+</head>
+
+<body>
+    <!-- Navbar -- inline with the rest of the content -->
+    <!--   * the Menu items are inside of a container inside the navbar. -->
+    <!-- Jumbotron - width is 100% of the view port -->
+    <!-- Card -- used in "wrapping the images." -->
+    <nav class="navbar bg-dark navbar-dark">
+        <!--           bkgnd   text    -->
+        <!-- enclose the nav bar links in a div container to indent the display -->
+        <div class="container">
+            <a href="" class="navbar-brand"><i class="fas fa-binoculars mr-2"></i>PATTERN</a>
+            <!-- NOTE: class mr-2 is for margin. -->
+            <!-- See the Bootstrap 4 Spacing Utility: https://getbootstrap.com/docs/4.3/utilities/spacing/ -->
+        </div>
+    </nav>
+
+    <!-- Jumbotron inside a "header" section -->
+    <section id="header" class="jumbotron text-center">
+        <h1 class="display-3">PATTERN</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis, nulla eu facilisis condimentum, metus nisl ornare enim, et posuere diam dui vel justo</p>
+        <p><em>THIS IS THE CLEANER VERSION OF index02.html</em></p>
+
+        <!-- For the buttons, since it's not a form, use the anchor tag instead ofthe button tag -->
+        <a href="" class="btn btn-primary">Do Something</a>
+        <a href="" class="btn btn-success">Another Thing</a>
+    </section>
+    
+    <!-- Start of Gallery Section -->
+    <section id="gallery01">
+        <div class="container">
+            <div class="card">
+                <img src="imgs/pattern1.jpeg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nam quis nisi diam.</h3>
+                    <p class="card-text">Nam quis nisi diam. Vivamus iaculis est in nisi sollicitudin, vel iaculis velit sollicitudin.</p>
+
+                    <button type="button" class="btn btn-outline-success">Download</button>
+                    <button type="button" class="btn btn-outline-danger"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery02">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">  <!-- This is a responsive set-up:  -->
+                                        <!-- 3 cards/row starting at medium screen. -->
+                <!--<div class="col-lg-4"> This is a responsive set-up:  -->
+                                        <!-- 3 cards/row starting at large screen. -->
+                <!-- <div class="col-4"> /*This is not a responsive set-up*/ -->
+                
+                    <div class="card">
+                        <img src="imgs/pattern2.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Vestibulum ante ipsum primis</h3>
+                                <p class="card-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam maximus ipsum sit amet placerat sollicitudin. Mauris eu nulla metus.</p>
+                    
+                                <button type="button" class="btn btn-outline-success">Download</button>
+                                <button type="button" class="btn btn-outline-danger"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"> <!-- This is a responsive set-up:  -->
+                    <!-- This is a responsive set-up:  -->
+                    <!-- 3 cards/row starting at medium screen. -->
+                    <!--<div class="col-lg-4"> This is a responsive set-up:  -->
+                    <!-- 3 cards/row starting at large screen. -->
+                    <!-- <div class="col-4"> /*This is not a responsive set-up*/ -->
+                
+                    <div class="card">
+                        <img src="imgs/pattern3.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Vivamus convallis feugiat</h3>
+                                <p class="card-text">Vivamus convallis feugiat leo sagittis gravida. Nulla consequat fringilla justo, vitae posuere magna maximus non.</p>
+                
+                                <button type="button" class="btn btn-outline-success">Download</button>
+                                <button type="button" class="btn btn-outline-danger"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4"> <!-- This is a responsive set-up:  -->
+                    <!-- This is a responsive set-up:  -->
+                    <!-- 3 cards/row starting at medium screen. -->
+                    <!--<div class="col-lg-4"> This is a responsive set-up:  -->
+                    <!-- 3 cards/row starting at large screen. -->
+                    <!-- <div class="col-4"> /*This is not a responsive set-up*/ -->
+                
+                    <div class="card">
+                        <img src="imgs/pattern1.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Nam quis nisi diam</h3>
+                                <p class="card-text">Nam quis nisi diam. Vivamus iaculis est in nisi sollicitudin, vel iaculis velit sollicitudin.</p>
+                
+                                <button type="button" class="btn btn-outline-success">Download</button>
+                                <button type="button" class="btn btn-outline-danger"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Optional (???) JavaScript  that Bootstrap 4.3 Requires-->
+    <!-- See: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
